@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import math
 
-# Work out triangles sides in more detail than area-sides.py and can do angles, but doesn't do area or perimeter.
+# Work out triangles sides in more detail than mix-For-Shapes-(2D+3D).py and can do angles, but doesn't do area or perimeter.
 
 while not exit:
     print("(R)ight angled or (E)lse")
