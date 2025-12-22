@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import math
 
-# For general use, but doesn't do angles and for triangles it's probably better to just use complicated-triangles.py
+# For general use, but doesn't do angles and for triangles it's probably better to just use comprehensive-Triangles.py
         
 
 while True:
