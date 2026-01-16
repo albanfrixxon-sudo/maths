@@ -28,6 +28,10 @@ while not exit:
                 ang = math.radians(float(input("Theta: ")))
     
         for _ in range(3):
+	    if adj is not None and opp is not None and hyp is not None:
+                if not (adj**2 + opp**2 == hyp**2):
+                    print("You have either entered information incorrectly for this triangle or this triangle cannot exist when it's right-angled.")
+                    print("The information outputted by this program will be incorrect. Please use the (E)lse section for triangles that do not have a right-angle.")
             if hyp is not None and opp is not None and ang is None:
                 ang = math.asin(opp / hyp)
             elif adj is not None and opp is not None and ang is None:
